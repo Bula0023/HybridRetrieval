@@ -1,0 +1,11 @@
+{
+    "question": "what is an autonomous agent?",
+    "answer": "An autonomous agent can exist in isolation or it can be situated in a world shared by other entities [1]. A \"data mining\" agent is an example of an autonomous agent operating in isolation, while a controller for a power grid is an example of one situated in a shared world [1]. Such agents can be reactive (instinctive, driven by stimulus) or deliberative (intellectual) in their behavior [1]. They can deal exclusively with abstract information (e.g., softbots, knowbots, or information agents) or be embodied in physical manifestations like industrial robots or autonomous vehicles [1]. Combinations of situated, reactive, and embodied characteristics define several distinct classes of autonomous agents [1].",
+    "confidence": 0.571153724193573,
+    "confidence_breakdown": {
+        "retrieval_score": 0.8278843104839325,
+        "completeness_score": 0.8,
+        "coverage_score": 0.0
+    },
+    "citation_verification": []
+}

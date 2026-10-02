@@ -1,0 +1,18 @@
+pip3 install langchain-text-splitters langchain-chroma langchain-openai langchain-experimental langchain-huggingface langchain-core rank-bm25 torch scipy sentence-transformers langchain-ollama beautifulsoup4 pymupdf python-multipart
+python3 -m pip install langchain-text-splitters langchain-chroma langchain-openai langchain-experimental langchain-huggingface langchain-core rank-bm25 torch scipy sentence-transformers langchain-ollama beautifulsoup4 pymupdf fastapi uvicorn
+# CREATE a virtual environment named .venv
+python3 -m venv .venv
+
+# ENTER / activate it (macOS/Linux)
+source .venv/bin/activate
+
+# LEAVE / deactivate it
+deactivate
+
+# DELETE the virtual environment
+rm -rf .venv
+
+# RECREATE it from scratch
+rm -rf .venv
+python3 -m venv .venv
+source .venv/bin/activate

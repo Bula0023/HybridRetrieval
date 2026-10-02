@@ -1,0 +1,24 @@
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - chroma
+    volumes:
+      - ./sample_docs:/app/sample_docs
+  chroma:
+    image: chromadb/chroma
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/chroma_data
+
+  frontend:
+    build: ./frontend
+    ports: 
+      - 5173:5173
+    depends_on:
+      - api
+volumes:
+  chroma_data:

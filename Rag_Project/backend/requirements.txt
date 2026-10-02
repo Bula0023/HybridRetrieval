@@ -1,0 +1,16 @@
+langchain-text-splitters
+langchain-chroma
+langchain-openai
+langchain-experimental
+langchain-huggingface
+langchain-core
+rank-bm25
+torch
+scipy
+sentence-transformers
+langchain-ollama
+beautifulsoup4
+pymupdf
+python-multipart
+fastapi
+uvicorn
